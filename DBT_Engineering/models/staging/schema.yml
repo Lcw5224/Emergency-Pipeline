@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: ecopul
+    schema: demo_dataset
+    tables:
+      - name: all
+
