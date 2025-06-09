@@ -23,16 +23,6 @@ The output supports downstream use cases such as:
 
 ---
 
-## 📁 Project Structure
-
-| Step | Description |
-|------|-------------|
-| 1. `seeds/` | Contains reference table `lookup.csv` for attendance type mapping |
-| 2. `models/staging/` | Raw data cleanup (e.g., `stg_all.sql`) |
-| 3. `models/core/` | Dimension and fact table construction |
-| 4. `macros/` | Reusable logic (e.g., surrogate keys, conditional limits) |
-| 5. `Looker Studio` | Dashboard includes 4 panels: record trend, multi-metric time trends, monthly comparison, regional analysis
-
 ## ☁️ Cloud Setup
 
 This project leverages **Terraform** to provision cloud resources efficiently. This ensures that infrastructure deployments are reproducible, scalable, and maintainable.
