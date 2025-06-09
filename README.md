@@ -40,7 +40,7 @@ Steps:
 ![image](https://github.com/user-attachments/assets/9f95cf4c-4efb-4485-8f71-afe047378801)  
 ![image](https://github.com/user-attachments/assets/2eaab7bb-46f8-4c67-b275-c8c1d1c4eb08)
 
---
+---
 
 ## 📥 Data Ingestion
 
