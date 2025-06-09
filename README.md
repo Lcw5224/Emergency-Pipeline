@@ -133,20 +133,21 @@ Users can filter by **organization** and **month** to assess operational pressur
 
 ---
 
-## 🎯 Purpose & Learning Outcome
+## 🎯 Purpose & Learning Outcomes
 
-This project simulates real-world end-to-end DE work:
-- Setting up data ingestion & transformation
-- Writing scalable dbt models
-- Building BI layers with business meaning
-- Thinking from stakeholder perspective
+This project replicates a real-world, end-to-end data engineering workflow:
+- Ingesting and transforming raw data at scale
+- Writing modular and maintainable dbt models
+- Building business-facing BI layers with clear value
+- Thinking from a stakeholder and decision-maker perspective
 
 ---
 
-## 🧠 Key Features
+## 🧠 Key Highlights
 
-- ✅ **Dynamic macro-based modeling** with `generate_surrogate_key`, `type_description`, and test-run limits
-- ✅ **Clean data lineage** with dbt DAG: `source → stg_all → fact_org`
-- ✅ **Automated joins** with seed-based type lookups
-- ✅ **Interactive BI Dashboard**: Monthly and regional pressure insights
+- ✅ **Macro-driven modeling** using `generate_surrogate_key` for robust primary keys
+- ✅ **Clear data lineage** with dbt DAG: `source → stg_all → fact_org`
+- ✅ **Automated enrichment** via seed-based dimensional lookups
+- ✅ **Interactive BI dashboard** for monthly and regional insights into emergency pressures
+
 
