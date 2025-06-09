@@ -1,8 +1,13 @@
 # Emergency-Pipeline 🚑
 
-This project showcases **a healthcare data engineering pipeline** built on Google Cloud. It simulates the processing of emergency care data, including A&E (Accident & Emergency) attendances, over-4-hour wait times, and delayed admissions. The goal is to support performance analytics and service optimization in healthcare systems.
+## 🚀 Pipeline Overview
 
-I designed this pipeline to automate the batch ingestion, modeling, and transformation of structured health data using **dbt** and **BigQuery**, with visual analytics powered by **Looker Studio**.
+An end‑to‑end data engineering pipeline built on **Google Cloud Platform** to deliver monthly insights into emergency care performance:
+
+- ⏱️ Automated ingestion of NHS A&E data (April 2020 – March 2025)
+- 🧱 Transformed with **dbt** into staging, core, and fact models (includes primary keys and source tests)
+- 🗃️ Materialized to **BigQuery**, partitioned by `year_month` and clustered by organization
+- 📊 Visualized via **Looker Studio** with interactive dashboards
 
 The output supports downstream use cases such as:
 - 📉 Building performance dashboards for hospital operations teams  
